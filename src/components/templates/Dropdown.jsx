@@ -4,7 +4,7 @@ const Dropdown = ({title, options, func}) => {
   return (
     <div className='select'>
       <select default="0" name='format' id='format' onChange={func}>
-        <option value='0' disabled>
+        <option value='0'>
             {title}
         </option>
         {options.map((option, index) =>(

@@ -15,10 +15,10 @@ const SideNav = () => {
           New Feeds<i className="ri-arrow-right-s-line ml-4"></i>
         </h1>
         <Link to='/trending' className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-fire-fill"></i>Trending</Link>
-        <Link className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-bard-fill"></i>Popular</Link>
-        <Link className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-movie-2-fill"></i>Movies</Link>
-        <Link className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-tv-2-fill"></i>TV Shows</Link>
-        <Link className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-user-search-fill"></i>People</Link>
+        <Link to='/popular' className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-bard-fill"></i>Popular</Link>
+        <Link to='/movies' className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-movie-2-fill"></i>Movies</Link>
+        <Link to='/tvshows' className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-tv-2-fill"></i>TV Shows</Link>
+        <Link to='/people' className="hover:bg-[#6556CD] hover:text-white  px-4 py-2 font-medium rounded-lg duration-200 transition-all text-[16px]"><i className="mr-2 ri-user-search-fill"></i>People</Link>
       </nav>
       <hr className="mt-10 bg-zinc-500 border-none h-[1px]"/>
       <nav className="flex flex-col text-zinc-400 text-lg">

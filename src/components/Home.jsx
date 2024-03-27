@@ -48,7 +48,11 @@ const Home = () => {
 
         <div className="p-6 flex justify-between">
           <h1 className="text-xl text-zinc-300 font-bold ">Trending</h1>
-          <Dropdown title="Filter" options={["tv", "movie", "all"]} func={(e) => setCategory(e.target.value)}/>
+          <Dropdown
+            title="Filter"
+            options={["tv", "movie", "all"]}
+            func={(e) => setCategory(e.target.value)}
+          />
         </div>
         <HorizontalCards data={trending} />
       </div>
